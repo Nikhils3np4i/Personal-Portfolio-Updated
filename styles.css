@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+IT+Moderna:wght@100..400&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Serif", serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    background: rgb(236, 236, 232);
+}
+
+.top-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: rgb(230, 226, 221);
+}
+.top-container > h1{
+    font-size: 3em;
+    font-family: "Dancing Script", serif;
+}
+.top-container > h2{
+    margin-top: 23px;
+    font-size: x-large;
+    font-family: "Playwrite IT Moderna", serif;
+}
+.top-container span{
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+.second-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background: rgb(229, 229, 226);
+    flex-direction: column;
+}
+.second-container > img{
+    margin-top: 60px;
+    width: 230px;
+    border-radius: 50%;
+}
+
+
+
+.text{
+    margin-top: 40px;
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text p{
+    margin-top: 30px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+
+
+.third-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+
+.dsa-development{
+    margin-top: 50px;
+    width: 700px;
+    height: 100%;
+    display: flex;
+}
+
+.img-1{
+    width: 200px;
+    height: 200px;
+    margin-top: 22px;
+}
+
+.text-data{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-data > p{
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.japanese{
+    margin-top: 60px;
+    width: 800px;
+    height: 100%;
+    display: flex;
+}
+.img-2{
+    width: 350px;
+    height: 180px;
+    margin-top: 50px;
+}
+
+footer{
+    height: 20vh;
+    margin-top: 60px;
+    background-color: rgb(230, 226, 221);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.links > a{
+    padding: 12px;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+.links > a:hover{
+    color:rgb(40, 136, 136);
+    transition: all 0.1s ease-in-out;
+}
+.copyright{
+    margin-top: 30px;
+}
+
+@media(max-width: 895px){
+    .dsa-development{
+        align-items: center;
+        flex-direction: column;  
+        width: 500px;
+    }
+    .dsa-development h3{
+        margin-top: 30px;
+    }
+    .text-data{
+        margin-left: 1px;
+    }
+    .japanese{
+        width: 500px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .japanese h3{
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 666px){
+    .text{
+        width: 350px;
+        height: 100%;
+    }
+    .text p{
+        letter-spacing: 0.5px;
+        line-height: 20px;
+    }
+    
+}
+
+@media(max-width: 504px){
+    .dsa-development{
+        width: 350px;
+    }
+    .japanese{
+        width: 350px;
+    }
+}
